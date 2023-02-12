@@ -1,0 +1,52 @@
+-- casting day_week data to numerical to string 
+SELECT
+ride_id,
+rideable_type,
+started_date,
+ended_date,
+CAST(day_week AS STRING) AS day_week,
+day_duration,
+started_at,
+ended_at,
+started_hour,
+ended_hour,
+start_station_name,
+start_station_id,
+end_station_name,
+end_station_id,
+start_lat,
+start_lng,
+end_lat,
+end_lng,
+member_casual
+FROM
+`cyclistic-data-376114.Cyclistic_data.Throughout 2022`
+
+--updating data in day_week from numbers to day's name
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Sunday" WHERE day_week IN ("1");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Monday" WHERE day_week IN ("2");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Tuesday" WHERE day_week IN ("3");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Wednesday" WHERE day_week IN ("4");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Thursday" WHERE day_week IN ("5");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Friday" WHERE day_week IN ("6");
+
+UPDATE
+`cyclistic-data-376114.Cyclistic_data.Cyclistic Data 2022`
+SET day_week="Saturday" WHERE day_week IN ("7");

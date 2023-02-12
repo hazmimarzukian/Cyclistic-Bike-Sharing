@@ -1,0 +1,92 @@
+# cyclistic-data-2023
+My first portfolio ever to break into data analytics field!
+
+--combining all tables into one
+SELECT
+*
+FROM
+`cyclistic-data-376114.Cyclistic_data.January 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.February 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.March 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.April 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.May 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.June 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.July 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.August 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM 
+`cyclistic-data-376114.Cyclistic_data.September 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM
+`cyclistic-data-376114.Cyclistic_data.October 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM
+`cyclistic-data-376114.Cyclistic_data.November 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM
+`cyclistic-data-376114.Cyclistic_data.December 2022`
+
+UNION DISTINCT
+
+SELECT
+*
+FROM
+`cyclistic-data-376114.Cyclistic_data.January 2022`
